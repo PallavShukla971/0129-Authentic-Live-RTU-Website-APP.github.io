@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*
+Template Name: ChocoBusCorp
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+File: Navigation CSS
+*/
+
+#topnav{display:block; float:right; width:630px; margin:0; padding:5px 0 5px 14px;}
+#topnav ul{margin:0; padding:0; list-style:none;}
+#topnav ul li ul{display:none;}
+#topnav ul li.active ul{display:block; width:100%; float:left; margin-top:18px; padding-top:18px; border-top:1px dotted #F7F0D6;}
+#topnav ul li{display:inline; margin-right:35px;}
+#topnav ul ul li{margin-right:25px;}
+#topnav li.last{margin-right:0;}
+#topnav ul li a:link, #topnav ul li a:visited, #topnav ul li a:hover{color:#F7F0D6; background-color:#402720; font-size:14px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited, #topnav ul ul li a:hover{color:#FFFFFF; background-color:#402720; font-size:12px; font-weight:normal;}
+#topnav ul li.active a, #topnav ul li.active li.active a{color:#A6924D; background-color:#402720;}
+#topnav ul li a:hover, #topnav ul li.active a:hover, #topnav ul li.active li.active a:hover{color:#FF6600; background-color:#402720;}
