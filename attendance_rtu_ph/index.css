@@ -1,0 +1,59 @@
+
+	/* ############################FROM HERE STARTS THE CSS FOR ABOVE BAR ############################## */
+	
+nav
+	{
+		width:1200px; margin:0px auto;
+	}
+nav ul
+	{
+		margin:0px; padding:0px; list-style:none;
+	}
+nav ul ul
+	{
+		display:none; position:absolute;
+	}
+nav ul li:hover ul
+	{
+		display:block;
+	}
+nav ul li
+	{
+		float:left; box-shadow:white 2px 2px 2px 2px;
+	}
+nav ul li>ul
+	{
+		width:1200px;
+	}
+nav a
+	{
+		box-sizing:border-box;
+		width:300px;
+		text-align:center;
+		text-decoration:none;
+		background:black;
+		display:block;
+		font-weight:bold;
+		height:50px;
+		color:cyan;
+		padding: 10px 0px;
+		border-bottom: 1px black solid;
+	}
+nav ul>li:nth-child(1) ul li ul
+	{
+		position:static; width:300px; float:left; height:500px;
+	}
+nav ul>li:nth-child(2) ul li ul
+	{
+		position:relative; left:-300px; width:300px; float:left; height:500px;
+	}
+nav ul>li:nth-child(3) ul li ul
+	{
+		position:relative; left:00px; width:300px; float:left; height:500px;
+	}
+nav ul>li:nth-child(4) ul li ul
+	{
+		position:relative; left:-300px; width:300px; float:left; height:500px;
+	}
+
+	
